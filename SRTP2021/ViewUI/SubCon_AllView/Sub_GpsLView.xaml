@@ -1,0 +1,109 @@
+﻿<UserControl x:Class="SRTP2021.ViewUI.SubCon_AllView.Sub_GpsLView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SRTP2021.ViewUI.SubCon_AllView"
+             mc:Ignorable="d" 
+             
+             Width="403.239" Height="231.68"
+             Name="SubGpsControl"
+             >
+    <UserControl.Resources>
+        <ResourceDictionary Source="../../Assets/Styles/DefaultStyle.xaml"/>
+    </UserControl.Resources>
+    <Viewbox >
+        <Grid Width="403.239" Height="231.68">
+            <Grid.Background>
+                <ImageBrush ImageSource="..\..\Assets\Images\IBG_gps.png" />
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="54"/>
+                <RowDefinition Height="0.80*"/>
+                <RowDefinition Height="10"/>
+            </Grid.RowDefinitions>
+            <Grid  Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width=".5*"/>
+                    <ColumnDefinition Width=".5*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="实时GPS数据" Foreground="White" Width="164" Height="50" FontFamily="Microsoft YaHei" FontSize="18" Margin="37,10,0,-5" >
+                    <TextBlock.Effect>
+                        <DropShadowEffect ShadowDepth="0"  BlurRadius="8" Color="White" />
+                    </TextBlock.Effect>
+                </TextBlock>
+                <TextBlock Grid.Column="1" Text="" Foreground="White" VerticalAlignment="Top" FontFamily="Microsoft YaHei" FontSize="32" Margin="214,28,0,0">
+                    <TextBlock.Effect>
+                        <DropShadowEffect ShadowDepth="0"  BlurRadius="8" Color="White" />
+                    </TextBlock.Effect>
+                </TextBlock>
+            </Grid>
+            <UniformGrid Grid.Row="1" Rows="3" Margin="0,10,0,10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width=".3*"/>
+                        <ColumnDefinition Width=".65*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="../../Assets/Images/jd.png" Margin="0,14,12,10" HorizontalAlignment="Right" Width="25" RenderTransformOrigin="0.667,0.444"/>
+                    <TextBlock Grid.Column="1" Text="经度：" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" FontFamily="Microsoft YaHei" FontSize="32">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="0"  BlurRadius="8" Color="White" />
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <TextBlock Grid.Column="2" Text="{Binding GpsIns_longitude}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Microsoft YaHei" FontSize="32">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="0"  BlurRadius="8" Color="White" />
+                        </TextBlock.Effect>
+                    </TextBlock>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width=".3*"/>
+                        <ColumnDefinition Width=".65*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="../../Assets/Images/wd.png" Margin="0,11,9,8" HorizontalAlignment="Right" Width="30" RenderTransformOrigin="0.675,0.325"/>
+                    <TextBlock Grid.Column="1" Text="纬度：" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" FontFamily="Microsoft YaHei" FontSize="32">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="0"  BlurRadius="8" Color="White" />
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <TextBlock Grid.Column="2" Text="{Binding GpsIns_latitude}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Microsoft YaHei" FontSize="32">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="0"  BlurRadius="8" Color="White" />
+                        </TextBlock.Effect>
+                    </TextBlock>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width=".3*"/>
+                        <ColumnDefinition Width=".65*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="../../Assets/Images/hb.png" Margin="0,10,8,6" HorizontalAlignment="Right" Width="32" RenderTransformOrigin="0.5,0.5"/>
+                    <TextBlock Grid.Column="1" Text="海拔：" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" FontFamily="Microsoft YaHei" FontSize="32">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="0"  BlurRadius="8" Color="White" />
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <TextBlock Grid.Column="2" Text="{Binding GpsIns_height}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Microsoft YaHei" FontSize="32">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="0"  BlurRadius="8" Color="White" />
+                        </TextBlock.Effect>
+                    </TextBlock>
+                </Grid>
+                <!--
+                    <Button 
+                        Command="{Binding DoCommand}"
+                        CommandParameter="{Binding ElementName=SubGpsControl}">
+                    </Button>-->
+            </UniformGrid>
+        </Grid>
+    </Viewbox>
+
+</UserControl>

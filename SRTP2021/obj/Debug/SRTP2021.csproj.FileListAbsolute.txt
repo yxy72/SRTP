@@ -1,0 +1,133 @@
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\bin\Debug\SRTP2021.exe.config
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\bin\Debug\SRTP2021.exe
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\bin\Debug\SRTP2021.pdb
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\SRTP2021.csprojAssemblyReference.cache
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\App.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\SRTP2021_MarkupCompile.cache
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\SRTP2021_MarkupCompile.lref
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\SRTP2021.g.resources
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\SRTP2021.Properties.Resources.resources
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\SRTP2021.csproj.GenerateResource.cache
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\SRTP2021.csproj.CoreCompileInputs.cache
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\SRTP2021.exe
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\SRTP2021.pdb
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\InitialView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\LoginView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\InitialView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\LoginView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\MainView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\App.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\MainView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\Assets\Styles\DefaultStyle.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.csprojAssemblyReference.cache
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\MainView.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\InitialView.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\LoginView.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\App.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021_MarkupCompile.cache
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021_MarkupCompile.lref
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.exe
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.pdb
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\bin\Debug\SRTP2021.exe.config
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\bin\Debug\SRTP2021.exe
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\bin\Debug\SRTP2021.pdb
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\Assets\Styles\DefaultStyle.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\MainView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\InitialView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\LoginView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.g.resources
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.Properties.Resources.resources
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.csproj.GenerateResource.cache
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_GpsTView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_GpsLView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_GpsTView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_GpsLView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_RadarView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_RadarView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_SpeedView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_SpeedView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_LaserView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_LaserView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_GpsTView.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_GpsLView.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_LaserView.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_RadarView.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_SpeedView.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_GpsTView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_GpsLView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_LaserView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_RadarView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\Sub_SpeedView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_GpsView.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_GpsView.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\cnm.g.cs
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\cnm.baml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\App.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\SRTP2021.exe.config
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\SRTP2021.exe
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\SRTP2021.pdb
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.csprojAssemblyReference.cache
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\cnm.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_GpsView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\MainView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\InitialView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\LoginView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\App.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021_MarkupCompile.cache
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021_MarkupCompile.lref
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\App.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\Assets\Styles\DefaultStyle.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\cnm.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_GpsView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\MainView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\InitialView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\LoginView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.g.resources
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.Properties.Resources.resources
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.csproj.GenerateResource.cache
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.csproj.CoreCompileInputs.cache
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.exe
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.pdb
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021_Content.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021_Content.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\Newtonsoft.Json.dll
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\Newtonsoft.Json.xml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.csproj.CopyComplete
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\bin\Debug\Newtonsoft.Json.dll
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\bin\Debug\Newtonsoft.Json.xml
+D:\Project_HIGH\C#\SRTP2021\SRTP2021\obj\Debug\SRTP2021.csproj.CopyComplete
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\LiveCharts.dll
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\LiveCharts.Wpf.dll
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\LiveCharts.pdb
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\LiveCharts.xml
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\LiveCharts.Wpf.pdb
+E:\Project SATA\C#\SRTP2021\SRTP2021\bin\Debug\LiveCharts.Wpf.xml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\SubCon_AllView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\SubCon_AllView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_GpsLView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_GpsTView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_GpsTView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_GpsLView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_LaserView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_LaserView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_SpeedView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_RadarView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_RadarView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_SpeedView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_NearMsgView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_NearMsgView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_ChartView.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_ChartView.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_dashBoard.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_dashBoard.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\tChart.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\tChart.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\tChart2.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\tChart2.baml
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_YXYCulomnChart.g.cs
+E:\Project SATA\C#\SRTP2021\SRTP2021\obj\Debug\ViewUI\SubCon_AllView\Sub_YXYCulomnChart.baml

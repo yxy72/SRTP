@@ -1,0 +1,164 @@
+﻿<UserControl x:Class="SRTP2021.ViewUI.SubCon_AllView.Sub_NearMsgView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SRTP2021.ViewUI.SubCon_AllView"
+             mc:Ignorable="d" Width="1080" Height="258
+             ">
+    <UserControl.Resources>
+        <ResourceDictionary Source="../../Assets/Styles/DefaultStyle.xaml"/>
+    </UserControl.Resources>
+    <Viewbox>
+        <Grid >
+            <Image Source="../../Assets/Images/MegBar.png" />
+            <ScrollViewer VerticalScrollBarVisibility="Hidden" Height="150" VerticalAlignment="Bottom" Margin="45,0,-45,13">
+                <UniformGrid Rows="7" Height="270">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="112"/>
+                            <ColumnDefinition Width="98"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="133"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Name="No1_ID" Text="12138" Style="{DynamicResource TextBlockStyle}" Grid.Column="0"/>
+                        <TextBlock Name="No1_Longitude" Text="103.953°" Style="{DynamicResource TextBlockStyle}" Grid.Column="1"/>
+                        <TextBlock Name="No1_Latitude" Text="30.778°" Style="{DynamicResource TextBlockStyle}" Grid.Column="2"/>
+                        <TextBlock Name="No1_Height" Text="766m" Style="{DynamicResource TextBlockStyle}" Grid.Column="3"/>
+                        <TextBlock Name="No1_Temperature" Text="25.3°C" Style="{DynamicResource TextBlockStyle}" Grid.Column="4"/>
+                        <TextBlock Name="No1_Humidity" Text="91%" Style="{DynamicResource TextBlockStyle}" Grid.Column="5"/>
+                        <TextBlock Name="No1_laser" Text="45.97m" Style="{DynamicResource TextBlockStyle}" Grid.Column="6"/>
+                        <TextBlock Name="No1_Distance" Text="--" Style="{DynamicResource TextBlockStyle}" Grid.Column="7"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="112"/>
+                            <ColumnDefinition Width="98"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="133"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Name="No2_ID" Text="12139" Style="{DynamicResource TextBlockStyle}" Grid.Column="0"/>
+                        <TextBlock Name="No2_Longitude" Text="104.042°" Style="{DynamicResource TextBlockStyle}" Grid.Column="1"/>
+                        <TextBlock Name="No2_Latitude" Text="30.873°" Style="{DynamicResource TextBlockStyle}" Grid.Column="2"/>
+                        <TextBlock Name="No2_Height" Text="471m" Style="{DynamicResource TextBlockStyle}" Grid.Column="3"/>
+                        <TextBlock Name="No2_Temperature" Text="26.7°C" Style="{DynamicResource TextBlockStyle}" Grid.Column="4"/>
+                        <TextBlock Name="No2_Humidity" Text="95%" Style="{DynamicResource TextBlockStyle}" Grid.Column="5"/>
+                        <TextBlock Name="No2_laser" Text="95.58m" Style="{DynamicResource TextBlockStyle}" Grid.Column="6"/>
+                        <TextBlock Name="No2_Distance" Text="--" Style="{DynamicResource TextBlockStyle}" Grid.Column="7"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="112"/>
+                            <ColumnDefinition Width="98"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="133"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Name="No3_ID" Text="12140" Style="{DynamicResource TextBlockStyle}" Grid.Column="0"/>
+                        <TextBlock Name="No3_Longitude" Text="103.967°" Style="{DynamicResource TextBlockStyle}" Grid.Column="1"/>
+                        <TextBlock Name="No3_Latitude" Text="30.793°" Style="{DynamicResource TextBlockStyle}" Grid.Column="2"/>
+                        <TextBlock Name="No3_Height" Text="1232m" Style="{DynamicResource TextBlockStyle}" Grid.Column="3"/>
+                        <TextBlock Name="No3_Temperature" Text="21.5°C" Style="{DynamicResource TextBlockStyle}" Grid.Column="4"/>
+                        <TextBlock Name="No3_Humidity" Text="87%" Style="{DynamicResource TextBlockStyle}" Grid.Column="5"/>
+                        <TextBlock Name="No3_laser" Text="125.36m" Style="{DynamicResource TextBlockStyle}" Grid.Column="6"/>
+                        <TextBlock Name="No3_Distance" Text="--" Style="{DynamicResource TextBlockStyle}" Grid.Column="7"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="112"/>
+                            <ColumnDefinition Width="98"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="133"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="-" Style="{DynamicResource TextBlockStyle}" Grid.Column="0"/>
+                        <TextBlock Text="-" Style="{DynamicResource TextBlockStyle}" Grid.Column="1"/>
+                        <TextBlock Text="-" Style="{DynamicResource TextBlockStyle}" Grid.Column="2"/>
+                        <TextBlock Text="-" Style="{DynamicResource TextBlockStyle}" Grid.Column="3"/>
+                        <TextBlock Text="-" Style="{DynamicResource TextBlockStyle}" Grid.Column="4"/>
+                        <TextBlock Text="-" Style="{DynamicResource TextBlockStyle}" Grid.Column="5"/>
+                        <TextBlock Text="-" Style="{DynamicResource TextBlockStyle}" Grid.Column="6"/>
+                        <TextBlock Text="-" Style="{DynamicResource TextBlockStyle}" Grid.Column="7"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="112"/>
+                            <ColumnDefinition Width="98"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="133"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="12142" Style="{DynamicResource TextBlockStyle}" Grid.Column="0"/>
+                        <TextBlock Text="123.256°" Style="{DynamicResource TextBlockStyle}" Grid.Column="1"/>
+                        <TextBlock Text="235.369°" Style="{DynamicResource TextBlockStyle}" Grid.Column="2"/>
+                        <TextBlock Text="896m" Style="{DynamicResource TextBlockStyle}" Grid.Column="3"/>
+                        <TextBlock Text="25.3°C" Style="{DynamicResource TextBlockStyle}" Grid.Column="4"/>
+                        <TextBlock Text="95%" Style="{DynamicResource TextBlockStyle}" Grid.Column="5"/>
+                        <TextBlock Text="95.58m" Style="{DynamicResource TextBlockStyle}" Grid.Column="6"/>
+                        <TextBlock Text="325.4m" Style="{DynamicResource TextBlockStyle}" Grid.Column="7"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="112"/>
+                            <ColumnDefinition Width="98"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="133"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="12138" Style="{DynamicResource TextBlockStyle}" Grid.Column="0"/>
+                        <TextBlock Text="123.256°" Style="{DynamicResource TextBlockStyle}" Grid.Column="1"/>
+                        <TextBlock Text="235.369°" Style="{DynamicResource TextBlockStyle}" Grid.Column="2"/>
+                        <TextBlock Text="896m" Style="{DynamicResource TextBlockStyle}" Grid.Column="3"/>
+                        <TextBlock Text="25.3°C" Style="{DynamicResource TextBlockStyle}" Grid.Column="4"/>
+                        <TextBlock Text="95%" Style="{DynamicResource TextBlockStyle}" Grid.Column="5"/>
+                        <TextBlock Text="95.58m" Style="{DynamicResource TextBlockStyle}" Grid.Column="6"/>
+                        <TextBlock Text="326.4m" Style="{DynamicResource TextBlockStyle}" Grid.Column="7"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="112"/>
+                            <ColumnDefinition Width="98"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="135"/>
+                            <ColumnDefinition Width="138"/>
+                            <ColumnDefinition Width="133"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="12138" Style="{DynamicResource TextBlockStyle}" Grid.Column="0"/>
+                        <TextBlock Text="123.256°" Style="{DynamicResource TextBlockStyle}" Grid.Column="1"/>
+                        <TextBlock Text="235.369°" Style="{DynamicResource TextBlockStyle}" Grid.Column="2"/>
+                        <TextBlock Text="896m" Style="{DynamicResource TextBlockStyle}" Grid.Column="3"/>
+                        <TextBlock Text="25.3°C" Style="{DynamicResource TextBlockStyle}" Grid.Column="4"/>
+                        <TextBlock Text="95%" Style="{DynamicResource TextBlockStyle}" Grid.Column="5"/>
+                        <TextBlock Text="95.58m" Style="{DynamicResource TextBlockStyle}" Grid.Column="6"/>
+                        <TextBlock Text="327.4m" Style="{DynamicResource TextBlockStyle}" Grid.Column="7"/>
+                    </Grid>
+                </UniformGrid>
+            </ScrollViewer>
+        </Grid>
+    </Viewbox>
+
+
+</UserControl>

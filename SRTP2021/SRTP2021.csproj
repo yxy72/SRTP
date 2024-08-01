@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F1E89B1-C5D0-4CFB-BAB8-9659D8743EB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SRTP2021</RootNamespace>
+    <AssemblyName>SRTP2021</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="cnm.xaml.cs">
+      <DependentUpon>cnm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\CommandBase.cs" />
+    <Compile Include="Common\NotifyBase.cs" />
+    <Compile Include="Common\PasswordHelper.cs" />
+    <Compile Include="DataAccess\JsonTempClass\Temp.cs" />
+    <Compile Include="Global\O.cs" />
+    <Compile Include="DataAccess\ServerAccess.cs" />
+    <Compile Include="DataAccess\JsonTempClass\Json.cs" />
+    <Compile Include="DataAccess\JsonTempClass\TempGpsL.cs" />
+    <Compile Include="ViewCS\Sub_GpsTCS.cs" />
+    <Compile Include="ViewCS\Sub_LaserCS.cs" />
+    <Compile Include="ViewCS\Sub_RadarCS.cs" />
+    <Compile Include="ViewCS\Sub_SpeedCS.cs" />
+    <Compile Include="ViewUI\SubCon_AllView\SubCon_AllView.xaml.cs">
+      <DependentUpon>SubCon_AllView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\Sub_ChartView.xaml.cs">
+      <DependentUpon>Sub_ChartView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\Sub_DashBoard.xaml.cs">
+      <DependentUpon>Sub_DashBoard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\Sub_YXYCulomnChart.xaml.cs">
+      <DependentUpon>Sub_YXYCulomnChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\tChart.xaml.cs">
+      <DependentUpon>tChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\tChart2.xaml.cs">
+      <DependentUpon>tChart2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_GpsView.xaml.cs">
+      <DependentUpon>SubCon_GpsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\Sub_NearMsgView.xaml.cs">
+      <DependentUpon>Sub_NearMsgView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\Sub_GpsTView.xaml.cs">
+      <DependentUpon>Sub_GpsTView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\Sub_GpsLView.xaml.cs">
+      <DependentUpon>Sub_GpsLView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCS\MainCS.cs" />
+    <Compile Include="ViewCS\Sub_GpsLCS.cs" />
+    <Compile Include="ViewUI\MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\Sub_LaserView.xaml.cs">
+      <DependentUpon>Sub_LaserView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\Sub_RadarView.xaml.cs">
+      <DependentUpon>Sub_RadarView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUI\SubCon_AllView\Sub_SpeedView.xaml.cs">
+      <DependentUpon>Sub_SpeedView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewVal\LoginVal.cs" />
+    <Compile Include="ViewCS\LoginCS.cs" />
+    <Compile Include="ViewUI\LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Global\V.cs" />
+    <Page Include="Assets\Styles\DefaultStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cnm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\SubCon_AllView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\Sub_ChartView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\Sub_DashBoard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\Sub_YXYCulomnChart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\tChart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\tChart2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_GpsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\Sub_NearMsgView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\Sub_GpsTView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\Sub_GpsLView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\MainView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\InitialView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewUI\InitialView.xaml.cs">
+      <DependentUpon>InitialView.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="ViewUI\LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\Sub_LaserView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\Sub_RadarView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUI\SubCon_AllView\Sub_SpeedView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Resource Include="Assets\Fonts\iconfont.ttf" />
+    <Resource Include="Assets\Fonts\LcdD.ttf" />
+    <None Include="bin\Debug\SRTP2021.exe.config" />
+    <None Include="bin\x86\Release\SRTP2021.exe.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\web\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="bin\x86\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\icn0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\bottomBtnSel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\backgroundHigh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\ItemTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\MegBar.png" />
+    <Resource Include="Assets\Images\IBG_gps.png" />
+    <Resource Include="Assets\Images\IBG_laser.png" />
+    <Resource Include="Assets\Images\IBG_radar.png" />
+    <Resource Include="Assets\Images\IBG_speed.png" />
+    <Resource Include="Assets\Images\IBG_temperature.png" />
+    <Resource Include="Assets\Images\ItemBackground6.png" />
+    <Resource Include="Assets\Images\jd.png" />
+    <Resource Include="Assets\Images\wd.png" />
+    <Resource Include="Assets\Images\hb.png" />
+    <Resource Include="Assets\Icons\icn_laser.png" />
+    <Resource Include="Assets\Icons\icn_humidity.png" />
+    <Resource Include="Assets\Icons\icn_temperate.png" />
+    <Resource Include="Assets\Images\dashBoard.png" />
+    <Resource Include="Assets\Images\dashBoardPoint.png" />
+    <Resource Include="Assets\Images\radarImg.png" />
+    <Resource Include="Assets\Images\IBG_speedLine.png" />
+    <Resource Include="Assets\Images\IBG_chartTHH.png" />
+    <Content Include="bin\Debug\Html\JS\mapapi.js" />
+    <Resource Include="bin\Debug\Html\map.html" />
+    <Content Include="bin\Debug\SRTP2021.exe" />
+    <Content Include="bin\Debug\SRTP2021.pdb" />
+    <Content Include="bin\x86\Release\SRTP2021.exe" />
+    <Content Include="bin\x86\Release\SRTP2021.pdb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

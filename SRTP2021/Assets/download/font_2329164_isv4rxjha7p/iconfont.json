@@ -1,0 +1,30 @@
+{
+  "id": "2329164",
+  "name": "srtp2021",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4080485",
+      "name": "用户名-登录页",
+      "font_class": "geren",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4368887",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "9845540",
+      "name": "验证码",
+      "font_class": "yanzhengma",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    }
+  ]
+}

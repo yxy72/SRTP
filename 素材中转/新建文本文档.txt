@@ -1,0 +1,12 @@
+                <chart:CartesianChart Grid.Column="1">
+                    <chart:CartesianChart.Series>
+                        <chart:LineSeries Stroke="LightBlue" 
+                                  Values="1,2,3,4,5,6,7"/>
+                    </chart:CartesianChart.Series>
+                    <chart:CartesianChart.AxisX>
+                        <chart:Axis ShowLabels="False"/>
+                    </chart:CartesianChart.AxisX>
+                    <chart:CartesianChart.AxisY>
+                        <chart:Axis ShowLabels="False"/>
+                    </chart:CartesianChart.AxisY>
+                </chart:CartesianChart>
